@@ -36,7 +36,7 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 
 3) All'interno del ciclo for: 
         - Definisco una variabile divElement nella quale creo un elemento (div)
-        - Aggiungo (append) alla variabile divElement la variabile x
+        - Aggiungo (append) alla variabile divElement la variabile x (stringa da mostrare)
         - Aggiungo divElement (append) al container 
 
 ***
