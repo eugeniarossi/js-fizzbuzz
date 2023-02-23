@@ -42,25 +42,27 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1.25rem;
 }
 
 .div-element:hover {
     transform: scale(1.2);
+    color: #fff;
 }
 
 /*
 ************
-CLASSI DA ASSEGNARE IN JAVASCRIPT
+CLASSES TO BE ASSIGNED IN JAVASCRIPT
 ************
 */
 
 .div-element {
-    width: 9.375rem;
-    height: 9.375rem;
-    margin: 1.25rem;
+    width: 5.625rem;
+    height: 5.625rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 1.25rem;
 }
 
 .number {
