@@ -20,9 +20,9 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
         Definisco una variabile x
 
         Definisco delle condizioni: 
+        - se (i / 3 restituisce resto 0) && (i / 5 restituisce resto 0) assegno alla variabile x la stringa 'FizzBuzz'
         - se i / 3 restituisce resto 0 assegno alla variabile x la stringa 'Fizz'
         - se i / 5 restituisce resto 0 assegno alla variabile x la stringa 'Buzz'
-        - se (i / 3 restituisce resto 0) && (i / 5 restituisce resto 0) assegno alla variabile x la stringa 'FizzBuzz'
 
         Stampo la variabile x in console 
 
