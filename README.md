@@ -35,9 +35,9 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 2) Nello scope globale definisco una variabile in cui salvo il container
 
 3) All'interno del ciclo for: 
-        - Definisco una variabile element nella quale creo un elemento (div)
-        - Aggiungo (append) alla variabile element la stringa 'i'
-        - Aggiungo element (append) al container 
+        - Definisco una variabile divElement nella quale creo un elemento (div)
+        - Aggiungo (append) alla variabile divElement la variabile x
+        - Aggiungo divElement (append) al container 
 
 ***
 
@@ -45,4 +45,4 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 
 1) Creo delle classi css con stili differenti per le diverse tipologie di valore  
 
-2) Assegno le diverse classi nelle condizioni 
+2) Assegno le diverse classi al divElement nelle condizioni 

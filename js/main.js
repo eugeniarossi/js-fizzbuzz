@@ -1,8 +1,12 @@
 'use strict';
 
+const container = document.getElementById('container');
+
 for (let i = 1; i <= 100; i++) {
 
     let x;
+
+    const divElement = document.createElement('div');
 
     if ((i % 3 === 0) && (i % 5 === 0)) {
         x = 'FizzBuzz';
@@ -18,5 +22,10 @@ for (let i = 1; i <= 100; i++) {
     }
 
     console.log(x);
+
+    divElement.append(x);
+    container.append(divElement);
 }
+
+
 
