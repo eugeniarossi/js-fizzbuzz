@@ -1,0 +1,82 @@
+@import url(variables.css);
+
+/*
+************
+RESET
+************
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+************
+COMMON
+************
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-color);
+}
+
+/*
+************
+MAIN
+************
+*/
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin: 80px;
+}
+
+#container {
+    width: 90%;
+    max-width: 86.875rem;
+    margin: 0 auto 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*
+************
+CLASSI DA ASSEGNARE IN JAVASCRIPT
+************
+*/
+
+.div-element {
+    width: 9.375rem;
+    height: 9.375rem;
+    margin: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    background-color: var(--blue);
+}
+
+.fizz {
+    background-color: var(--green);
+}
+
+.buzz {
+    background-color: var(--yellow);
+}
+
+.fizzbuzz {
+    background-color: var(--red);
+}
+
+@media screen and (min-width: 768px) {
+    #container {
+        width: 80%;
+    }
+}
