@@ -15,9 +15,9 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 
 ### Milestone 1
 
-1) Definisco un ciclo incrementale for con variabile i <= 100. Operazioni: 
+1) Definisco una variabile x nello scope globale
 
-        Definisco una variabile x
+2) Definisco un ciclo incrementale for con variabile i <= 100. Operazioni: 
 
         Definisco delle condizioni: 
         - se (i / 3 restituisce resto 0) && (i / 5 restituisce resto 0) assegno alla variabile x la stringa 'FizzBuzz'
